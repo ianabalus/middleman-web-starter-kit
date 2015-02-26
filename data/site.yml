@@ -1,0 +1,10 @@
+title: Site Title
+description: Site Description
+keywords: "keyword 1, keyword 2, keyword 3"
+author:
+  name: Your name
+  email: Your email
+
+
+# Google Analytics
+google_analytics_id: UA-XXXXXX-X

@@ -1,0 +1,17 @@
+.article {
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: 1px solid $base-border-color;
+	&:last-child{
+		border-bottom: none;
+	}
+}
+
+	.article__header {
+
+	}
+
+	.article__image {
+		float: left;
+		margin-right: 10px;
+	}

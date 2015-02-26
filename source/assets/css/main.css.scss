@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*!
+*
+* Company
+* @ianabalus
+*
+*/
+
+
+
+/************************************
+*
+* TABLE OF CONTENTS
+*
+************************************/
+
+
+
+// BOURBON - mixin library for sass
+@import "bourbon";
+@import "neat";
+
+
+// Default configuration
+@import "_partials/config";
+
+
+// Normalize
+@import "_partials/_base/normalize";
+
+
+
+/***********************************
+* BASE ELEMENTS
+***********************************/
+@import "_partials//base";
+
+
+
+/***********************************
+* LAYOUT
+***********************************/
+@import "_partials/layout";
+
+
+
+/***********************************
+* MODULES
+***********************************/
+@import "_partials/modules";
+
+
+
+/***********************************
+* STATES & HELPERS
+***********************************/
+@import "_partials/states";
+
+
+
+/***********************************
+* PRINT - remove if unnecessary
+***********************************/
+// @import "_partials/_base/states";

@@ -1,0 +1,118 @@
+/******************************
+* DEFAULT CONFIGURATION
+******************************/
+
+
+// typography
+$base-font-family: 'Helvetica Neue', Arial, sans-serif;
+$secondary-font-family: Arial, Sans-serif;
+// $secondary-font-family: 'Georgia', Helvetica, Arial, Sans-serif;
+$header-font-family: $secondary-font-family;
+
+
+// font sizes
+$base-font-size: 14px;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.50;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+
+// line height
+$base-line-height: 1.4;
+$header-line-height: 1.2;
+
+
+// other sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * $base-font-size;
+$base-z-index: 0;
+
+
+// colors
+$black: 		#000;
+$white: 		#fff;
+$gray: 			#6b6b6b;
+$gray-dark: 	#454545;
+$gray-dark-1: 	darken($gray, 5);
+$gray-dark-2: 	darken($gray, 10);
+$gray-dark-3: 	darken($gray, 20);
+$gray-dark-4: 	darken($gray, 30);
+$gray-dark-5: 	darken($gray, 40);
+$gray-dark-6: 	darken($gray, 50);
+$gray-light: 	#ececec;
+$gray-light-1: 	lighten($gray, 50);
+$gray-light-2: 	lighten($gray, 40);
+$gray-light-3: 	lighten($gray, 30);
+$gray-light-4: 	lighten($gray, 20);
+$gray-light-5: 	lighten($gray, 10);
+$blue:			#3660bb;
+$red:			#e14747;
+$yellow:		#ffff4d;
+$orange:		#ffa500;
+
+
+// base color
+$base-color: $gray;
+$link-color: $blue;
+
+
+// border
+$base-border-color: $gray-light-2;
+$base-border: 1px solid $base-border-color;
+$link-border: 1px solid $link-color;
+
+
+// selection color
+$selection-color: $blue;
+
+
+
+// flex grid defaults
+$fg-column: 60px;             // Column Width
+$fg-gutter: 25px;             // Gutter Width
+$fg-max-columns: 12;   
+
+
+// Media Query Ranges
+$small-range: em(640) !default; //640px;
+
+$medium-range-min: em(641) !default; //641px;
+$medium-range-max: em(768) !default; //768px;
+
+$large-range-min: em(769) !default; //769px;
+$large-range-max: em(1024) !default; //1024px;
+
+$xlarge-range-min: em(1025) !default; //1025px;
+$xlarge-range-max: em(1224) !default; //1224px;
+
+$xxlarge-range-min: em(1225) !default; //1225px;
+$xxlarge-range-max: em(1824) !default; //1824px;
+
+
+$screen: "only screen" !default;
+
+$landscape: "#{$screen} and (orientation: landscape)" !default;
+$portrait: "#{$screen} and (orientation: portrait)" !default;
+
+$small-up: $screen !default;
+$small-only: "#{$screen} and (max-width: #{$small-range})" !default;
+
+$medium-up: "#{$screen} and (min-width:#{$medium-range-min})" !default;
+$medium-only: "#{$screen} and (min-width:#{$medium-range-min}) and (max-width:#{$medium-range-max})" !default;
+
+$large-up: "#{$screen} and (min-width:#{$large-range-min})" !default;
+$large-only: "#{$screen} and (min-width:#{$large-range-min}) and (max-width:#{$large-range-max})" !default;
+
+$xlarge-up: "#{$screen} and (min-width:#{$xlarge-range-min})" !default;
+$xlarge-only: "#{$screen} and (min-width:#{$xlarge-range-min}) and (max-width:#{$xlarge-range-max})" !default;
+
+$xxlarge-up: "#{$screen} and (min-width:#{$xxlarge-range-min})" !default;
+$xxlarge-only: "#{$screen} and (min-width:#{$xxlarge-range-min}) and (max-width:#{$xxlarge-range-max})" !default;
+
+// Legacy
+$small: $medium-up;
+$medium: $medium-up;
+$large: $large-up;

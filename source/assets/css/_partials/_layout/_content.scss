@@ -1,0 +1,10 @@
+
+.content {
+	@include span-columns(12);
+	// @include omega();
+	min-height: 80px;
+
+	@media #{$small} {
+		@include span-columns(8);
+	}
+}

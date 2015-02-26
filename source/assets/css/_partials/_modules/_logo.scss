@@ -1,0 +1,24 @@
+.logo {
+	position: relative;
+	width: 150px;
+	min-height: 70px;
+	float: left;
+	text-align: center;
+	// background: $black;
+}
+
+.brand {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 55px;
+	margin: auto;
+	color: $white;
+	font-weight: bold;
+	font-size: ($base-font-size * 3) - 2;
+	
+	@media #{$small} {
+		color: $base-color;
+	}
+}

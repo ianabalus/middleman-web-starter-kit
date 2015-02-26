@@ -1,0 +1,15 @@
+{
+  "name": "middleman-bourbon-template",
+  "version": "0.0.0",
+  "authors": [
+    "Ian Fernando Abalus <ianfernandoabalus@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,19 @@
+menu:
+-
+ menuItem: Nav Link 1
+ menuLink: /
+-
+ menuItem: Nav Link 2
+ menuLink: /
+-
+ menuItem: Nav Link 3
+ menuLink: /
+-
+ menuItem: Nav Link 4
+ menuLink: /
+-
+ menuItem: Nav Link 5
+ menuLink: /
+-
+ menuItem: Nav Link 6
+ menuLink: /

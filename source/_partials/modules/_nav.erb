@@ -1,0 +1,11 @@
+
+<!-- navigation -->
+<span class="nav-mobile"></span>
+<nav class="nav" role="navigation">
+	<ul class="nav-menu">
+		<% data.nav.menu.each do |m| %>
+		<li><%= link_to m[:menuItem], m[:menuLink] %></li>
+		<% end %>
+	</ul>
+</nav>
+<!-- /end of navigation -->

@@ -1,0 +1,11 @@
+
+.sidebar {
+	@include span-columns(12);
+	min-height: 80px;
+	background: $gray-light-1;
+	border: $base-border;
+
+	@media #{$small} {
+		@include span-columns(4)
+	}
+}

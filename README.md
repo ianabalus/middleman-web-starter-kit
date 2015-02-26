@@ -1,0 +1,16 @@
+#Middleman Template w/ Bourbon
+This is a [Middleman](http://middlemanapp.com) web starter kit that I've made to help you speed up static site building. If you are new to Middleman be sure to read all the documentation before using the template.
+
+##Features:
+* [LiveReload](http://livereload.com/): it monitors the changes in the file system. As soon as you save the file and it will automatically refresh the browser.
+* [SASS](http://sass-lang.com/): Sass: Syntatically Awesome Style Sheets.
+* [Bourbon](http://bourbon.io/): A simple and lightweight mixin library for SASS.
+* [Bourbon NEAT](http://neat.bourbon.io/): A lightweight semantic grid framework for Sass and Bourbon.
+* [jQuery](http://jquery.com/): is a fast, small, and feature-rich JavaScript library.
+* [SMACSS](https://smacss.com/): is more style guide than rigid framework.
+* [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/): is a front-end naming methodology.
+
+##Installation
+1. Download or clone this respository `git clone git://https://github.com/ianabalus/middleman-bourbon-template.git` to `~/.middleman/middleman-bourbon-template`
+2. Create your new Middleman project: `middleman init my_new_project --template=middleman-bourbon-template`
+3. Use `bower install` to install the assets.

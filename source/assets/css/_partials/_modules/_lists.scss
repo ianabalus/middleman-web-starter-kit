@@ -1,0 +1,31 @@
+// List styles
+
+%li {
+	padding: 0 0 0 20px;
+}
+
+.bullet {
+	& > li {
+		@extend %li;
+		&:before {
+			content: '\2022';
+			top: 1px; // replace default
+		}
+	}
+}
+
+
+.numeric {
+	counter-reset: li-counter;
+	& > li {
+		@extend %li;
+		&:before {
+			content: counter(li-counter) '. ';
+			counter-increment: li-counter;
+		}
+	}
+}
+
+.roman {
+	
+}

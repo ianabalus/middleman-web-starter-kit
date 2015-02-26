@@ -1,0 +1,42 @@
+---
+title: Home
+---
+<section class="section">
+	
+	<!-- content -->
+	<div class="content">
+		<% 3.times do %>
+		<!-- start of an article -->
+		<article class="article">
+			<header class="article__header">
+				<h1 class=><%= lorem.words 2 %></h1>
+			</header>
+			<div class="article__image">
+				<img src="<%= lorem.image('120x120') %>" />
+			</div>
+			<p><%= lorem.paragraph %></p>
+			<p><%= lorem.paragraph %></p>
+		</article>
+		<!-- /end of an article -->
+		<% end %>
+	</div>
+	<!-- /end of content -->
+
+	<!-- sidebar -->
+	<aside class="sidebar padding-default" role="complementary">
+		<h5>Sidebar</h5>
+		<hr />
+		<ul class="bullet">
+			<% 3.times do |n| %>
+			<li><%= link_to "Sidebar Link", "" %></li>
+			<% end %>
+		</ul>
+		<ol class="numeric">
+			<% 3.times do |n| %>
+			<li>Ordered List <%= n + 1 %></li>
+			<% end %>
+		</ol>
+	</aside>
+	<!-- /end of sidebar -->
+
+</section>
