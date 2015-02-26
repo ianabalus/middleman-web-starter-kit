@@ -1,7 +1,7 @@
 
 .content {
 	@include span-columns(12);
-	// @include omega();
+	@include omega();
 	min-height: 80px;
 
 	@media #{$small} {

@@ -8,7 +8,13 @@
 }
 
 	.article__header {
+		margin-bottom: 10px;
+	}
 
+	.article__title {}
+
+	.article__date {
+		font-size: $base-font-size - 2;
 	}
 
 	.article__image {

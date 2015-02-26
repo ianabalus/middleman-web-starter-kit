@@ -1,4 +1,4 @@
-//=require "_enquire"
+//=require "enquire"
 
 (function($) {
 
