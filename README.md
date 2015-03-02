@@ -11,6 +11,6 @@ This is a [Middleman](http://middlemanapp.com) web starter kit that I've made to
 * [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/): is a front-end naming methodology.
 
 ##Installation
-1. Download or clone this respository `git clone git://https://github.com/ianabalus/middleman-bourbon-template.git` to `~/.middleman/middleman-bourbon-template`
-2. Create your new Middleman project: `middleman init my_new_project --template=middleman-bourbon-template`
+1. Download or clone this respository `git clone git://https://github.com/ianabalus/middleman-web-starter-kit.git` to `~/.middleman/middleman-web-starter-kit`
+2. Create your new Middleman project: `middleman init my_new_project --template=middleman-web-starter-kit`
 3. Use `bower install` to install the assets.
