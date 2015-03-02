@@ -1,0 +1,25 @@
+.main-head {
+	position: relative;
+	height: 150px;
+	max-height: 200px;
+	margin-bottom: 30px;
+	@media #{$small} {
+		height: 360px;
+		max-height: 400px;
+	}
+}
+
+	.main-head__title {
+		display: none;
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		margin: auto;
+		height: 80px;
+		font-size: 55px;
+		color: $white;
+		text-align: center;
+		text-shadow: 2px 2px $gray-dark-3;
+		@media #{$small} {
+			display: block;
+		}
+	}
