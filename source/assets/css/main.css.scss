@@ -4,62 +4,76 @@
 *
 * Company
 * @ianabalus
+* v0.0.1
 *
 */
 
 
+/**
+ * TABLE OF CONTENTS
+ * 
+ * LIBRARIES
+ * Bourbon........................... Mixin library for SASS.
+ * Neat.............................. Lightweight semantic grid framework.
+ *
+ * SETTINGS
+ * Config............................ Globally-available variables and configuration
+ * Mixins............................ Useful mixins and functions
+ * 
+ * BASE
+ * Normalize......................... A modren, HTML5-ready alternative to CSS reset
+ * Base.............................. Default styles
+ * Fonts............................. Fonts used
+ * 
+ * LAYOUT
+ * Header............................ Page header
+ * Footer............................ Page footer
+ * Sidebar........................... Page sidebar
+ * Section........................... Page section
+ *
+ * MODULES
+ * add modules here*
+ * 
+ * STATES & HELPERS
+ * 
+ * PRINT - remove if unnecessary
+ */
 
-/************************************
-*
-* TABLE OF CONTENTS
-*
-************************************/
 
-
-
-// BOURBON - mixin library for sass
+/*-------------------------------------*\
+	LIBRARIES
+\*-------------------------------------*/
 @import "bourbon";
 @import "neat";
 
+/*-------------------------------------*\
+	SETTINGS
+\*-------------------------------------*/
+@import "_partials/_generic/config";
+@import "_partials/_generic/mixin";
 
-// Default configuration
-@import "_partials/config";
-
-
-// Normalize
+/*-------------------------------------*\
+	BASE
+\*-------------------------------------*/
 @import "_partials/_base/normalize";
+@import "_partials/base";
 
-
-
-/***********************************
-* BASE ELEMENTS
-***********************************/
-@import "_partials//base";
-
-
-
-/***********************************
-* LAYOUT
-***********************************/
+/*-------------------------------------*\
+	LAYOUT
+\*-------------------------------------*/
 @import "_partials/layout";
 
-
-
-/***********************************
-* MODULES
-***********************************/
+/*-------------------------------------*\
+	MODULES
+\*-------------------------------------*/
 @import "_partials/modules";
 
-
-
-/***********************************
-* STATES & HELPERS
-***********************************/
+/*-------------------------------------*\
+	STATES & HELPERS
+\*-------------------------------------*/
 @import "_partials/states";
 
-
-
-/***********************************
-* PRINT - remove if unnecessary
-***********************************/
+/*-------------------------------------*\
+	PRINT
+\*-------------------------------------*/
 // @import "_partials/_base/states";

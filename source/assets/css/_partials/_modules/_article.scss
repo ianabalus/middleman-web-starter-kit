@@ -1,3 +1,7 @@
+
+/*-------------------------------------*\
+	article block
+\*-------------------------------------*/
 .article {
 	overflow: hidden;
 	padding-bottom: 10px;
@@ -6,7 +10,10 @@
 		border-bottom: none;
 	}
 }
-
+	
+	/*-------------------------------------*\
+		article elements
+	\*-------------------------------------*/
 	.article__header {
 		margin-bottom: 10px;
 	}
