@@ -1,4 +1,6 @@
 #Middleman Template w/ Bourbon
+
+[![Join the chat at https://gitter.im/ianabalus/middleman-web-starter-kit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ianabalus/middleman-web-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is a [Middleman](http://middlemanapp.com) web starter kit that I've made to help you speed up static site building. If you are new to Middleman be sure to read all the documentation before using the template.
 
 ##Features:
