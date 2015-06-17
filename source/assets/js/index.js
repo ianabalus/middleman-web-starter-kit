@@ -3,10 +3,10 @@
 // Give Modernizr.load a string, an object or an arry of strings and objects
 Modernizr.load([
 	{
-		load: '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js',
+		load: '//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js',
 		complete: function() {
 			if (!window.jQuery) {
-				Modernizr.load('assets/js/vendor/jquery-1.8.0.min.js');
+				Modernizr.load('assets/js/vendor/jquery-1.11.3.min.js');
 			}
 		}
 	},
