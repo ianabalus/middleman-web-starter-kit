@@ -5,4 +5,4 @@ rvm:
 - 2.1.2
 
 sudo: false
-script: bundle exec rspec
+script: bundle exec middleman build
