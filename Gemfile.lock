@@ -74,11 +74,10 @@ GEM
       rack-test (~> 0.6.2)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
-    middleman-livereload (3.1.1)
-      em-websocket (>= 0.2.0)
-      middleman-core (>= 3.0.2)
-      multi_json (~> 1.0)
-      rack-livereload
+    middleman-livereload (3.4.2)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
     middleman-smusher (3.0.0)
       middleman (>= 3.0.0)
       smusher (~> 0.4.9)
@@ -135,6 +134,7 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    wdm (0.1.0)
 
 PLATFORMS
   x64-mingw32
@@ -142,9 +142,9 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   middleman (~> 3.3.7)
-  middleman-livereload (~> 3.1.0)
+  middleman-livereload (~> 3.4.2)
   middleman-smusher (~> 3.0.0)
   neat
   sass-media_query_combiner
-  tzinfo-data
+  tzinfo-data (~> 1.2015.5)
   wdm (~> 0.1.0)
