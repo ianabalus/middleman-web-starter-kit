@@ -1,4 +1,4 @@
-#Middleman Template w/ Bourbon
+#Middleman Web Starter Kit
 [![Dependency Status](https://gemnasium.com/ianabalus/middleman-web-starter-kit.svg)](https://gemnasium.com/ianabalus/middleman-web-starter-kit)
 [![Join the chat at https://gitter.im/ianabalus/middleman-web-starter-kit](https://badges.gitter.im/Join%20Chat.svg)]
 (https://gitter.im/ianabalus/middleman-web-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
