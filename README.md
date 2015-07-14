@@ -3,7 +3,7 @@
 [![Join the chat at https://gitter.im/ianabalus/middleman-web-starter-kit](https://badges.gitter.im/Join%20Chat.svg)]
 (https://gitter.im/ianabalus/middleman-web-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This is a [Middleman](http://middlemanapp.com) web starter kit that I've made to help you speed up static site building. If you are new to Middleman be sure to read all the documentation before using the template.
+This is a [Middleman](http://middlemanapp.com) web starter kit that I've made to help the developer speed up static site building. If you are new to Middleman be sure to read all the documentation before using the template.
 
 ##Features:
 * [LiveReload](http://livereload.com/): it monitors the changes in the file system. As soon as you save the file and it will automatically refresh the browser.
