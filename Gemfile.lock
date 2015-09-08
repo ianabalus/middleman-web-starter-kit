@@ -142,7 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
-  middleman (~> 3.3.7)
+  middleman (~> 3.3.12)
   middleman-livereload (~> 3.4.2)
   middleman-smusher (~> 3.0.0)
   neat
