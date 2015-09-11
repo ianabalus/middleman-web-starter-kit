@@ -12,7 +12,7 @@ gem "middleman-livereload", "~> 3.4.2"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Windows does not come with time zone data
-# gem "tzinfo-data", "~> 1.2015.5", platforms: [:mswin, :mingw]
+gem "tzinfo-data", "~> 1.2015.5", platforms: [:mswin, :mingw]
 
 # Image optimization
 gem "middleman-smusher", "~> 3.0.0"
